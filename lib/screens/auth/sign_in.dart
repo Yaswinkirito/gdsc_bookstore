@@ -80,8 +80,6 @@ class SignIn extends StatelessWidget {
                                 ))
                               });
                     } else {
-                      print("Hello");
-
                       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
                         content: Text("Sign in failed"),
                       ));
